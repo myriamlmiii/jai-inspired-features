@@ -1,6 +1,6 @@
 # Jai-Inspired Python Implementation of debugging tools
 
-In this project, we implemented debugging features inspired by Jonathan Blow's Jai programming language. Jai is a new systems programming language created by Jonathan Blow, an independent game developer known for creating games like Braid and The Witness.His work was really impressive and he made me develop interest on game development ( Meriem* ) . Jai emphasizes fast compile times, better debugging tools, and more control over memory management compared to traditional languages.
+In this project, we implemented debugging features inspired by Jonathan Blow's Jai programming language. Jai is a new systems programming language created by Jonathan Blow, an independent game developer known for creating games like Braid and The Witness. His work was really impressive and he made us develop interest on game development  . Jai emphasizes fast compile times, better debugging tools, and more control over memory management compared to traditional languages.
 
 We adapted Jai's debugging philosophy to Python by implementing three key features using efficient algorithms. While Python has built-in debugging tools, they often lack the speed and real-time capabilities that Jai provides. Our implementation bridges this gap by using optimized data structures and algorithms to achieve similar functionality in Python.
 
