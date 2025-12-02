@@ -1,0 +1,4 @@
+depth,dfs_time_ms,dfs_memory_kb,bfs_time_ms,bfs_memory_kb,winner
+10,0.082,4.21,0.062,3.41,BFS
+50,0.517,15.62,0.249,12.72,BFS
+100,0.694,23.3,0.471,14.59,BFS

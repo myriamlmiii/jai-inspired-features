@@ -1,0 +1,60 @@
+Folder PATH listing
+Volume serial number is FEB0-2837
+C:.
+|   3
+|   analysis_algorithms.py
+|   benchmarks.py
+|   features_analysis.py
+|   game.py
+|   project_structure.txt
+|   README.md
+|   requirements.txt
+|   visualizations.py
+|   
++---outputs
+|   +---analysis
+|   |       ALGORITHM_ANALYSIS.txt
+|   |       FEATURE_ANALYSIS.txt
+|   |       
+|   +---experiments
+|   |       grouping_data.csv
+|   |       leak_detection_data.csv
+|   |       overhead_data.csv
+|   |       
+|   +---metrics
+|   |       dfs_vs_bfs.csv
+|   |       game_metrics.csv
+|   |       hash_table.csv
+|   |       union_find.csv
+|   |       
+|   \---visualizations
+|           algorithm_dashboard.html
+|           feature_comparison.html
+|           graph_traversal_3d.html
+|           interactive_dashboard.html
+|           memory_3d.html
+|           union_find_3d.html
+|           
++---src
+|   |   __init__.py
+|   |   
+|   +---feature1_memory
+|   |   |   tracker.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           tracker.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   +---feature2_analysis
+|   |       analyser.py
+|   |       __init__.py
+|   |       
+|   \---feature3_callgraph
+|           builder.py
+|           __init__.py
+|           
+\---tests
+        test_algorithms.py
+        __init__.py
+        
