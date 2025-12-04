@@ -236,6 +236,20 @@ Running tests...
   Union-Find: PASS
 All tests passed!
 ```
+## Complexity Challenges We Encountered
+
+- **Registry Lookup Complexity:**  
+  FastRegistry (dict) behaves as O(1) average, while SlowRegistry (list) behaves as O(n).  
+  The difference becomes obvious at larger input sizes.
+
+- **DFS Inspector:**  
+  Needed cycle detection to prevent infinite loops. This adds overhead but is necessary for real debugging.
+
+- **Memoization in Code Generation:**  
+  First call is O(n) because the template must be expanded.  
+  Later calls become O(1), which mimics compile-time caching ideas from Jai.
+
+These small complexity-focused decisions helped us understand why some debugging tools feel fast while others feel slow.
 
 ## References
 
@@ -259,6 +273,16 @@ All tests passed!
 
 7. Murphy, J. (mCoding). (2021). "Python Memory Management and Tips." YouTube.  
    https://www.youtube.com/watch?v=F6u5rhUQ6dU
+
+## Use of AI Tools
+
+- We used AI tool (mainly ChatGPT) as support for:
+  - Brainstorming possible debugging features based on the Jai talk.
+  - Getting help rephrasing explanations and improving the readability of our report and README.
+  - Double-checking some algorithm choices and complexity explanations.
+
+- All main code (registry, inspector, benchmarks, visualizations, and tests) was written, run, and debugged by us. We verified behaviour and performance with our own tests and benchmark scripts.
+
 
 All theoretical complexity claims and conclusions are justified by measured data in CSV files and analysis reports.
 
